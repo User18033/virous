@@ -36,33 +36,23 @@ Facebook  : https://m.facebook.com/shubham.gosain.980
 apt-get update -y
 ```
 ### Installation
-```
+
  apt-get upgrade -y
-```
-```
+
  pkg install python -y 
-```
-```
+
  pkg install python2 -y
-```
-```
+
  pkg install git -y
-```
-```
+
  pip install lolcat
-```
-```
+
  git clone https://github.com/shubhamggosai/virous
-```
-```
+
  ls
-```
-```
+
  cd virous
-```
-```
+
  ls
-``
-```
+
  bash virous.sh
-```
