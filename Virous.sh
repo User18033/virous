@@ -35,7 +35,7 @@ X  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
 '|lolcat
 echo " " 
 
-echo -e "$red                      ▶ Coded by$grn N17RO$red ◀$rset"
+echo -e "$red                      ▶ Coded by$grn ShuBham$red ◀$rset"
 echo -e "$red                 ⫸$ylo Instagram.com/shubham_g0sain$red ⫷$rset"
 echo 
 # Functions
