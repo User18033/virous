@@ -26,7 +26,7 @@ echo '
 X |......XX%,.@      \######/%;\;;;;, /      @#%,XX......| X
 X |.....X  @#%,.@     |######%%;;;;,.|     @#%,.@  X.....| X
 X  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
- X# \.X        @#%,.@   Infect v1.1      @#%,.@        
+ X# \.X        @#%,.@   virous v1.1    @#%,.@        
                 @#%,.@              @#%,.@          
                   @#%,.@          @#%,.@            
                      @#%,.@      @#%,.@             
@@ -45,10 +45,10 @@ echo " "
 echo -e "$grn              ＞＞＞＞>>>＞$ylo [Options]$grn ＜<<<＜＜＜＜$rset"
 echo " "
 echo " "
-echo -e "$red                        ➡$cyan [1️⃣] virous now"
-echo -e "$red                        ➡$cyan [2️⃣] Save now"
-echo -e "$red                        ➡️$cyan [3️⃣] Update script"
-echo -e "$red                        ➡$cyan [4️⃣] Exit"
+echo -e "$red                        -_-$cyan [1️⃣] virous now"
+echo -e "$red                        -_-$cyan [2️⃣] Save now"
+echo -e "$red                        -_-$cyan [3️⃣] Update script"
+echo -e "$red                        -_-$cyan [4️⃣] Exit"
 echo " "
 echo " "
 echo -e "$grn               >＞＞＞＞＞$ylo [SELECT]$grn ＜＜＜＜＜<$rset"
