@@ -57,4 +57,4 @@ apt-get update -y
 
  ls
 
- bash virous.sh
+ bash Virous.sh
