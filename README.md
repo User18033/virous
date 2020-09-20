@@ -8,6 +8,7 @@
 
 Virous is a bash based script which is officially made for termux users and from this tool you can spread android virus by just sending link. This tool works on both rooted Android device and Non-rooted Android device.
 
+
 ### FIND...ME.
 
 
@@ -29,7 +30,8 @@ Github.   : https://github.com/shubhamggosai
 
 Facebook  : https://m.facebook.com/shubham.gosain.980
 
-
+Telegram :
+https://t.me/ShuBham_g0sain
 ### ?? Warning
 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
