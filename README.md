@@ -47,7 +47,7 @@ apt-get update -y
 
  pip install lolcat
 
- git clone https://github.com/shubhamggosai/virous
+ git clone https://github.com/ShuBhamg0sain/virous.git
 
  ls
 
