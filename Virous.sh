@@ -1,2 +1,159 @@
-import marshal, base64
-eval(base64.b64decode("IyBBIHRvb2wgYnkgc2h1YmhhbWdnb3NhaQojIENvbG91cnMKIy0tLS0tLS0tLS0tLS0tLS0tCnJlZD0nXDAzM1sxOzMxbScKcnNldD0nXDAzM1swbScKZ3JuPSdcMDMzWzE7MzJtJwp5bG89J1wwMzNbMTszM20nCmJsdWU9J1wwMzNbMTszNG0nCmN5YW49J1wwMzNbMTszNm0nCnBpbms9J1wwMzNbMTszNW0nCiMtLS0tLS0tLS0tLS0tLS0tLQojIHNjcmlwdGluZyBzdGFydHMKY2xlYXIKZWNobyAnCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgIF9fX19fX19fX18KICAgICAgICAgICAgICAgICAgICAgIC5+IyMjIyMjIyMjJSU7fi4KICAgICAgICAgICAgICAgICAgICAgLyMjIyMjIyMjIyMjIyUlO2BcCiAgICAgICAgICAgICAgICAgICAgLyMjIyMjIy9+XC9+XCUlOyw7LFwKICAgICAgICAgICAgICAgICAgIHwjIyMjIyMjXCAgICAvOzs7Oy4sLnwKICAgICAgICAgICAgICAgICAgIHwjIyMjIyMjIyNcLyU7Ozs7Oy4sLnwKICAgICAgICAgIFhYICAgICAgIHwjIy9+flwjIyMjJTs7Oy9+flw7LHwgICAgICAgWFgKICAgICAgICBYWC4uWCAgICAgIHwjfCAgbyAgXCMjJTsvICBvICB8LnwgICAgICBYLi5YWAogICAgICBYWC4uLi4uWCAgICAgfCMjXF9fX18vIyMlO1xfX19fLy4sfCAgICAgWC4uLi4uWFgKIFhYWFhYLi4uLi5YWCAgICAgIFwjIyMjIyMjIyMvXDs7Ozs7OywsIC8gICAgICBYWC4uLi4uWFhYWFgKWCB8Li4uLi4uWFglLC5AICAgICAgXCMjIyMjIy8lO1w7Ozs7LCAvICAgICAgQCMlLFhYLi4uLi4ufCBYClggfC4uLi4uWCAgQCMlLC5AICAgICB8IyMjIyMjJSU7Ozs7LC58ICAgICBAIyUsLkAgIFguLi4uLnwgWApYICBcLi4uWCAgICAgQCMlLC5AICAgLS0tLS0tLS0tLS0tLS0tLSAgICBAIEAgMDAgMCB4eHh4eHh4eHgKIFgjIFwuWCAgICAgICAgQCMlLC5AICAgdmlyb3VzIHYxLjEgICAgQCMlLC5AICAgICAgICAKICAgICAgICAgICAgICAgIEAjJSwuQCAgICAgICAgICAgICAgQCMlLC5AICAgICAgICAgIAogICAgICAgICAgICAgICAgICBAIyUsLkAgICAgICAgICAgQCMlLC5AICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgIEAjJSwuQCAgICAgIEAjJSwuQCAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICBAIyUuLEAgIEAjJSwuQCAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIFNodWJoYW1nZ29zYWkKJ3xsb2xjYXQKZWNobyAiICIgCgplY2hvIC1lICIkcmVkICAgICAgICAgICAgICAgICAgICAgIOKWtiBDb2RlZCBieSRncm4gU2h1QmhhbSRyZWQg4peAJHJzZXQiCmVjaG8gLWUgIiRyZWQgICAgICAgICAgICAgICAgIOKruCR5bG8gSW5zdGFncmFtLmNvbS9zaHViaGFtX2cwc2FpbiRyZWQg4qu3JHJzZXQiCmVjaG8gCiMgRnVuY3Rpb25zCmVjaG8gLWUgIiRyZWQgICAgICAgICAgICAgICAgICAgW0luZmVjdCB0aGVtIHdpdGggZnVuXSRyc2V0IgplY2hvICIgIgplY2hvICIgIgplY2hvIC1lICIkZ3JuICAgICAgICAgICAgICDvvJ7vvJ7vvJ7vvJ4+Pj7vvJ4keWxvIFtPcHRpb25zXSRncm4g77ycPDw877yc77yc77yc77ycJHJzZXQiCmVjaG8gIiAiCmVjaG8gIiAiCmVjaG8gLWUgIiRyZWQgICAgICAgICAgICAgICAgICAgICAgICAtXy0kY3lhbiBbMe+4j+KDo10gdmlyb3VzIG5vdyIKZWNobyAtZSAiJHJlZCAgICAgICAgICAgICAgICAgICAgICAgIC1fLSRjeWFuIFsy77iP4oOjXSBTYXZlIG5vdyIKZWNobyAtZSAiJHJlZCAgICAgICAgICAgICAgICAgICAgICAgIC1fLSRjeWFuIFsz77iP4oOjXSBVcGRhdGUgc2NyaXB0IgplY2hvIC1lICIkcmVkICAgICAgICAgICAgICAgICAgICAgICAgLV8tJGN5YW4gWzTvuI/ig6NdIEV4aXQiCmVjaG8gIiAiCmVjaG8gIiAiCmVjaG8gLWUgIiRncm4gICAgICAgICAgICAgICA+77ye77ye77ye77ye77yeJHlsbyBbU0VMRUNUXSRncm4g77yc77yc77yc77yc77ycPCRyc2V0IgplY2hvICIgIgplY2hvIC1lICIkY3lhbiAgICAgICAgICAgICAgICAgICBbW1skeWxvIFNlbGVjdCBhbnkgb3B0aW9uJGN5YW5dXV0kcnNldCIKZWNobyAiICIKcmVhZCBuCmNhc2UgIiRuIiBpbgoxKWVjaG8gIiAiCmVjaG8gIiAiCmVjaG8gIiAiCmVjaG8gLWUgIiRyZWQgICAgICAgICAgICAgICBZb3UgYXJlIGdvaW5nIHRvJGdybiBJbmZlY3QkcmVkIE5vdyRyc2V0IgplY2hvICIgIgplY2hvIC1lICIkZ3JuICAgICAgICAgICAgICAgICAgUHJlc3MkeWxvIEVOVEVSJHJlZCB0byBjb250aW51ZSRyc2V0IgplY2hvICIgIgpyZWFkIGh1bGtlCmNkICRIT01FL3Zpcm91cy9TaHVCaGFtCmVjaG8gIiAiCmVjaG8gLWUgIiR5bG8gICAgIFRvIHRlcm1pbmF0ZSB0aGUgcHJvY2VzcyBjbGljayRyZWQgJ3QnJHlsbyBvciB0byBjb250aW51ZSBjbGljayBvbiRncm4gRU5URVIkcnNldCIgCnJlYWQgY2hvaWNlCmlmIFsgJGNob2ljZSA9ICd0JyBdIDsgdGhlbgplY2hvIC1lICIkcmVkICAgICAgICAgICAgICAgICAgICBBcmUgeW91IHN1cmU/IFByZXNzJGdybiBFTlRFUiRyZWQgdG8gZXhpdCRyc2V0IgpyZWFkIGh1bGtlZQpjZCAkSE9NRS92aXJvdXMvCmJhc2ggdmlyb3VzLnNoCmVsc2UKYmFzaCBzeXN1cC5zaAplY2hvICIgIgplY2hvICIgIgplY2hvIC1lICIkZ3JuIO+8nu+8nu+8nu+8nu+8nu+8nu+8nu+8nu+8niR5bG8gW0VYSVRdJGdybiDvvJzvvJzvvJzvvJzvvJzvvJzvvJzvvJzvvJwkcnNldCIKZWNobyAiICIKZWNobyAtZSAiJGN5YW4gICAgICAgICAgICBjbGljayRncm4gRU5URVIkY3lhbiB0byBnbyBiYWNrIGludG8gdmlyb3VzICBtZW51JHJzZXQiCmVjaG8gIiAiCnJlYWQgcHVuY2gKZmkKY2QgJEhPTUUvdmlyb3VzLwpiYXNoIHZpcm91cy5zaCA7OwoyKWVjaG8gIiAiCmVjaG8gIiAiCmVjaG8gIiAiCmVjaG8gLWUgIiRyZWQgICAgICAgICAgICAgICAgWW91IGFyZSBnb2luZyB0byRyZWQgU2F2ZSB2aWN0aW0kcnNldCAiCmVjaG8gIiAiCmVjaG8gLWUgIiRncm4gICAgICAgICAgICAgICAgICBQcmVzcyR5bG8gRU5URVIkZ3JuIHRvIGNvbnRpbnVlJHJzZXQiCmVjaG8gIiAiCnJlYWQgbml0cm8KY2QgJEhPTUUvdmlyb3VzL1NodUJoYW0KZWNobyAiICIKZWNobyAtZSAiJHlsbyAgICAgICAgIFRvIHRlcm1pbmF0ZSB0aGUgcHJvY2VzcyBjbGljayRyZWQgJ3QnICR5bG8gb3IgdG8gY29udGludWUgY2xpY2sgb24kZ3JuIEVOVEVSJHJzZXQiCnJlYWQgY2hvaWNlCmlmIFsgJGNob2ljZSA9ICd0JyBdIDsgdGhlbgplY2hvIC1lICIkcmVkICAgICAgICAgICAgICAgICAgIEFyZSB5b3Ugc3VyZT8gUHJlc3MkZ3JuIEVOVEVSJHJlZCB0byBleGl0JHJzZXQiCnJlYWQgbml0cm9vCmNkICRIT01FL3Zpcm91cwpiYXNoIHZpcm91cy5zaAplbHNlCmJhc2ggc2F2ZS5zaAplY2hvICIgIgplY2hvICIgIgplY2hvIC1lICIkZ3JuIO+8nu+8nu+8nu+8nu+8nu+8nu+8niR5bG8gW0VYSVRdJGdybiDvvJzvvJzvvJzvvJzvvJzvvJzvvJzvvJzvvJwkcnNldCIKZWNobyAiICIKZWNobyAtZSAiJGN5YW4gICAgICAgICAgICAgY2xpY2skZ3JuIEVOVEVSJGN5YW4gdG8gZ28gYmFjayBpbnRvIHZpcm91cyAgbWVudSRyc2V0IgplY2hvICIgIgpyZWFkIHB1bmNoCmZpCmNkICRIT01FL3Zpcm91cwpiYXNoIHZpcm91cy5zaCA7OwozKWVjaG8gIiAiCmVjaG8gIiAiCmVjaG8gIiAiCmVjaG8gLWUgIiRyZWQgICAgICAgICAgICAgWW91IGFyZSBnb2luZyB0byRncm4gVXBkYXRlIHRoZSRyZWQgU2NyaXB0JHJzZXQgIgplY2hvICIgIgplY2hvIC1lICIkZ3JuICAgICAgICAgICAgICAgICBQcmVzcyR5bG8gRU5URVIkZ3JuIHRvIGNvbnRpbnVlJHJzZXQiCmVjaG8gIiAiCnJlYWQgbW9uCmNkICRIT01FL3Zpcm91cy9TaHVCaGFtCmVjaG8gIiAiCmVjaG8gLWUgIiR5bG8gICAgICAgICBUbyB0ZXJtaW5hdGUgdGhlIHByb2Nlc3MgY2xpY2skcmVkICd0JyAkeWxvIG9yIHRvIGNvbnRpbnVlIGNsaWNrIG9uJGdybiBFTlRFUiRyc2V0IgpyZWFkIGNob2ljZQppZiBbICRjaG9pY2UgPSAndCcgXSA7IHRoZW4KZWNobyAtZSAiJHJlZCAgICAgICAgICAgICAgICAgQXJlIHlvdSBzdXJlPyBQcmVzcyRncm4gRU5URVIkcmVkIHRvIGV4aXQkcnNldCIKcmVhZCBtb25uCmNkICRIT01FL3Zpcm91cwpiYXNoIHZpcm91cy5zaAplbHNlCmJhc2ggdXBkYXRlLnNoCmVjaG8gIiAiCmVjaG8gIiAiCmVjaG8gLWUgIiRncm4g77ye77ye77ye77ye77ye77ye77ye77yeJHlsbyBbRVhJVF0kZ3JuIO+8nO+8nO+8nO+8nO+8nO+8nO+8nO+8nO+8nCRyc2V0IgplY2hvICIgIgplY2hvIC1lICIkY3lhbiAgICAgICAgY2xpY2skZ3JuIEVOVEVSJGN5YW4gdG8gZ28gYmFjayBpbnRvIHZpcm91cyAgbWVudSRyc2V0IgplY2hvICIgIgpyZWFkIHB1bmNoCmZpCmNkICRIT01FL3Zpcm91cwpiYXNoIHZpcm91cy5zaCA7Owo0KQpzbGVlcCAyLjAKY2xlYXIKZWNobyAiICIKZWNobyAtZSAiJGdybgogICAgIF9fX18gIF8gIF8gIF9fX18gICAgX19fXyAgXyAgXyAgX19fCiAgICAoICBfIFwoIFwvICkoIF9fXykgICggIF8gXCggXC8gKSggX19fKQogICAgICkgXyA8IFwgIC8gIClfXykgICAgKSBfIDwgXCAgLyAgKV9fKQogICAgKF9fX18vIChfXykgKF9fX18pICAoX19fXy8gKF9fKSAoX19fXykuLi4kY3lhbiBoYXZlIGEgZ29vZCBkYXkkcnNldCIKCmVjaG8gIiAiCmVjaG8gIiAiCmVzYWMKCg=="))
+# A tool by shubhamggosai
+# Colours
+#-----------------
+red='\033[1;31m'
+rset='\033[0m'
+grn='\033[1;32m'
+ylo='\033[1;33m'
+blue='\033[1;34m'
+cyan='\033[1;36m'
+pink='\033[1;35m'
+#-----------------
+# scripting starts
+clear
+echo '
+                
+                         __________
+                      .~#########%%;~.
+                     /############%%;`\
+                    /######/~\/~\%%;,;,\
+                   |#######\    /;;;;.,.|
+                   |#########\/%;;;;;.,.|
+          XX       |##/~~\####%;;;/~~\;,|       XX
+        XX..X      |#|  o  \##%;/  o  |.|      X..XX
+      XX.....X     |##\____/##%;\____/.,|     X.....XX
+ XXXXX.....XX      \#########/\;;;;;;,, /      XX.....XXXXX
+X |......XX%,.@      \######/%;\;;;;, /      @#%,XX......| X
+X |.....X  @#%,.@     |######%%;;;;,.|     @#%,.@  X.....| X
+X  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
+ X# \.X        @#%,.@   virous v1.1    @#%,.@        
+                @#%,.@              @#%,.@          
+                  @#%,.@          @#%,.@            
+                     @#%,.@      @#%,.@             
+                       @#%.,@  @#%,.@              
+                        Shubhamggosai
+'|lolcat
+echo " " 
+
+echo -e "$red                      ▶ Coded by$grn ShuBham$red ◀$rset"
+echo -e "$red                 ⫸$ylo Instagram.com/shubham_g0sain$red ⫷$rset"
+echo 
+# Functions
+echo -e "$red                   [Infect them with fun]$rset"
+echo " "
+echo " "
+echo -e "$grn              ＞＞＞＞>>>＞$ylo [Options]$grn ＜<<<＜＜＜＜$rset"
+echo " "
+echo " "
+echo -e "$red                        -_-$cyan [1️⃣] virous now"
+echo -e "$red                        -_-$cyan [2️⃣] Save now"
+echo -e "$red                        -_-$cyan [3️⃣] Update script"
+echo -e "$red                        -_-$cyan [4️⃣] Exit"
+echo " "
+echo " "
+echo -e "$grn               >＞＞＞＞＞$ylo [SELECT]$grn ＜＜＜＜＜<$rset"
+echo " "
+echo -e "$cyan                   [[[$ylo Select any option$cyan]]]$rset"
+echo " "
+read n
+case "$n" in
+1)echo " "
+echo " "
+echo " "
+echo -e "$red               You are going to$grn Infect$red Now$rset"
+echo " "
+echo -e "$grn                  Press$ylo ENTER$red to continue$rset"
+echo " "
+read hulke
+cd $HOME/virous/ShuBham
+echo " "
+echo -e "$ylo     To terminate the process click$red 't'$ylo or to continue click on$grn ENTER$rset" 
+read choice
+if [ $choice = 't' ] ; then
+echo -e "$red                    Are you sure? Press$grn ENTER$red to exit$rset"
+read hulkee
+cd $HOME/virous/
+bash virous.sh
+else
+bash sysup.sh
+echo " "
+echo " "
+echo -e "$grn ＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset"
+echo " "
+echo -e "$cyan            click$grn ENTER$cyan to go back into virous  menu$rset"
+echo " "
+read punch
+fi
+cd $HOME/virous/
+bash virous.sh ;;
+2)echo " "
+echo " "
+echo " "
+echo -e "$red                You are going to$red Save victim$rset "
+echo " "
+echo -e "$grn                  Press$ylo ENTER$grn to continue$rset"
+echo " "
+read nitro
+cd $HOME/virous/ShuBham
+echo " "
+echo -e "$ylo         To terminate the process click$red 't' $ylo or to continue click on$grn ENTER$rset"
+read choice
+if [ $choice = 't' ] ; then
+echo -e "$red                   Are you sure? Press$grn ENTER$red to exit$rset"
+read nitroo
+cd $HOME/virous
+bash virous.sh
+else
+bash save.sh
+echo " "
+echo " "
+echo -e "$grn ＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset"
+echo " "
+echo -e "$cyan             click$grn ENTER$cyan to go back into virous  menu$rset"
+echo " "
+read punch
+fi
+cd $HOME/virous
+bash virous.sh ;;
+3)echo " "
+echo " "
+echo " "
+echo -e "$red             You are going to$grn Update the$red Script$rset "
+echo " "
+echo -e "$grn                 Press$ylo ENTER$grn to continue$rset"
+echo " "
+read mon
+cd $HOME/virous/ShuBham
+echo " "
+echo -e "$ylo         To terminate the process click$red 't' $ylo or to continue click on$grn ENTER$rset"
+read choice
+if [ $choice = 't' ] ; then
+echo -e "$red                 Are you sure? Press$grn ENTER$red to exit$rset"
+read monn
+cd $HOME/virous
+bash virous.sh
+else
+bash update.sh
+echo " "
+echo " "
+echo -e "$grn ＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset"
+echo " "
+echo -e "$cyan        click$grn ENTER$cyan to go back into virous  menu$rset"
+echo " "
+read punch
+fi
+cd $HOME/virous
+bash virous.sh ;;
+4)
+sleep 2.0
+clear
+echo " "
+echo -e "$grn
+     ____  _  _  ____    ____  _  _  ___
+    (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
+     ) _ < \  /  )__)    ) _ < \  /  )__)
+    (____/ (__) (____)  (____/ (__) (____)...$cyan have a good day$rset"
+
+echo " "
+echo " "
+esac
