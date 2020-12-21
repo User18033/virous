@@ -131,7 +131,7 @@ if [ $choice = 't' ] ; then
 echo -e "$red                 Are you sure? Press$grn ENTER$red to exit$rset"
 read monn
 cd $HOME/virous
-bash virous.sh
+bash Virous.sh
 else
 bash update.sh
 echo " "
@@ -143,7 +143,7 @@ echo " "
 read punch
 fi
 cd $HOME/virous
-bash virous.sh ;;
+bash Virous.sh ;;
 4)
 sleep 2.0
 clear
