@@ -153,16 +153,5 @@ echo -e "$grn
      ____  _  _  ____    ____  _  _  ___
     (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
      ) _ < \  /  )__)    ) _ < \  /  )__)
-    (____/ (__) (____)  (____/ (__) (____)...$cyanfollow me 👉https://www.instagram.com/shubham_g0sain/👈$rset"
-
-echo " "
-echo " "
-5)
-sleep 2.0
-clear
-python2
-import os
-https://www.instagram.com/shubham_g0sain/
-echo " "
-echo -e "$grn
+    (____/ (__) (____)  (____/ (__) (____)...$cyan follow me 👉https://www.instagram.com/shubham_g0sain/👈$rset"
 esac
