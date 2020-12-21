@@ -32,7 +32,7 @@ X  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
                      @#%,.@      @#%,.@             
                        @#%.,@  @#%,.@              
                         Shubhamggosai 
-
+echo " " 
 echo -e "$red                      ▶ Coded by$grn ShuBham$red ◀$rset"
 echo -e "$red                 ⫸$ylo Instagram.com/shubham_g0sain$red ⫷$rset"
 echo 
