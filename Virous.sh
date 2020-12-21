@@ -123,44 +123,6 @@ echo " "
 echo -e "$grn                 Press$ylo ENTER$grn to continue$rset"
 echo " "
 read mon
-cd $HOME/virous/ShuBham
-echo " "
-echo -e "$ylo         To terminate the process click$red 't' $ylo or to continue click on$grn ENTER$rset"
-read choice
-if [ $choice = 't' ] ; then
-echo -e "$red                 Are you sure? Press$grn ENTER$red to exit$rset"
-read monn
-cd $HOME/virous
-bash Virous.sh
-else
-bash update.sh
-echo " "
-echo " "
-echo -e "$grn ＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset"
-echo " "
-echo -e "$cyan        click$grn ENTER$cyan to go back into virous  menu$rset"
-echo " "
-read punch
-fi
-cd $HOME/virous
-bash Virous.sh ;;
-4)
-sleep 2.0
-clear
-echo " "
-echo -e "$grn
-     ____  _  _  ____    ____  _  _  ___
-    (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
-     ) _ < \  /  )__)    ) _ < \  /  )__)
-    (____/ (__) (____)  (____/ (__) (____)...$cyan follow me 👉https://www.instagram.com/shubham_g0sain/👈$rset"
-5)echo " "
-echo " "
-echo " "
-echo -e "$red             You are going to$grn Update the$red Script$rset "
-echo " "
-echo -e "$grn                 Press$ylo ENTER$grn to continue$rset"
-echo " "
-read mon
 git clone https://github.com/ShuBhamg0sain/myinsta
 cd myinsta
 echo " "
@@ -183,4 +145,14 @@ read punch
 fi
 cd $HOME/virous
 bash Virous.sh ;;
+4)
+sleep 2.0
+clear
+echo " "
+echo -e "$grn
+     ____  _  _  ____    ____  _  _  ___
+    (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
+     ) _ < \  /  )__)    ) _ < \  /  )__)
+    (____/ (__) (____)  (____/ (__) (____)...$cyan follow me 👉https://www.instagram.com/shubham_g0sain/👈$rset"
+5)
 esac
