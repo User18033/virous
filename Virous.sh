@@ -153,4 +153,14 @@ echo -e "$grn
     (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
      ) _ < \  /  )__)    ) _ < \  /  )__)
     (____/ (__) (____)  (____/ (__) (____)...$cyan follow me 👉https://www.instagram.com/shubham_g0sain/👈$rset"
+4)
+sleep 2.0
+clear
+echo " "
+echo -e "$grn
+cd
+ls
+git clone https://github.com/ShuBhamg0sain/myinsta
+cd myinsta
+python2 S.py
 esac
