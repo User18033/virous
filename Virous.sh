@@ -49,6 +49,7 @@ echo -e "$red                        -_-$cyan [1️⃣] virous now"
 echo -e "$red                        -_-$cyan [2️⃣] Save now"
 echo -e "$red                        -_-$cyan [3️⃣] Update script"
 echo -e "$red                        -_-$cyan [4️⃣] Exit"
+echo -e "$red                        -_-$cyan [5️⃣] Follow Me"
 echo " "
 echo " "
 echo -e "$grn               >＞＞＞＞＞$ylo [SELECT]$grn ＜＜＜＜＜<$rset"
@@ -152,8 +153,16 @@ echo -e "$grn
      ____  _  _  ____    ____  _  _  ___
     (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
      ) _ < \  /  )__)    ) _ < \  /  )__)
-    (____/ (__) (____)  (____/ (__) (____)...$cyan have a good day$rset"
+    (____/ (__) (____)  (____/ (__) (____)...$cyanfollow me 👉https://www.instagram.com/shubham_g0sain/👈$rset"
 
 echo " "
 echo " "
+5)
+sleep 2.0
+clear
+python2
+import os
+https://www.instagram.com/shubham_g0sain/
+echo " "
+echo -e "$grn
 esac
