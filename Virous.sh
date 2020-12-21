@@ -11,7 +11,7 @@ pink='\033[1;35m'
 #-----------------
 # scripting starts
 clear
-echo " " 
+echo ' 
                 
                          __________
                       .~#########%%;~.
@@ -32,6 +32,7 @@ X  \...X     @#%,.@   ----------------    @ @ 00 0 xxxxxxxxx
                      @#%,.@      @#%,.@             
                        @#%.,@  @#%,.@              
                         Shubhamggosai 
+'|lolcat
 echo " " 
 echo -e "$red                      ▶ Coded by$grn ShuBham$red ◀$rset"
 echo -e "$red                 ⫸$ylo Instagram.com/shubham_g0sain$red ⫷$rset"
