@@ -46,7 +46,7 @@ echo " "
 echo " "
 echo -e "$red                        -_-$cyan [1️⃣] virous now"
 echo -e "$red                        -_-$cyan [2️⃣] Save now"
-echo -e "$red                        -_-$cyan [3️⃣] Update script"
+echo -e "$red                        -_-$cyan [3️⃣] Update script and follow me"
 echo -e "$red                        -_-$cyan [4️⃣] Exit"
 echo " "
 echo " "
@@ -131,8 +131,8 @@ if [ $choice = 't' ] ; then
 echo -e "$red                 Are you sure? Press$grn ENTER$red to exit$rset"
 read monn
 cd myinsta
-python2 S.py
-else
+python2 insta.py
+cd ShuBham
 bash update.sh
 echo " "
 echo " "
