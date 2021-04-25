@@ -121,17 +121,13 @@ echo -e "$red             You are going to$grn Update the$red Script$rset "
 echo " "
 echo -e "$grn                 Press$ylo ENTER$grn to continue$rset"
 echo " "
-read mon
-git clone https://github.com/ShuBhamg0sain/myinsta
-cd myinsta
+python2 insta.py
 echo " "
 echo -e "$ylo         To terminate the process click$red 't' $ylo or to continue click on$grn ENTER$rset"
 read choice
 if [ $choice = 't' ] ; then
 echo -e "$red                 Are you sure? Press$grn ENTER$red to exit$rset"
 read monn
-cd myinsta
-python2 insta.py
 cd ShuBham
 bash update.sh
 echo " "
