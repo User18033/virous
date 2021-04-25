@@ -123,12 +123,6 @@ echo -e "$grn                 Press$ylo ENTER$grn to continue$rset"
 echo " "
 python2 insta.py
 exit()
-echo " "
-echo -e "$ylo         To terminate the process click$red 't' $ylo or to continue click on$grn ENTER$rset"
-read choice
-if [ $choice = 't' ] ; then
-echo -e "$red                 Are you sure? Press$grn ENTER$red to exit$rset"
-read monn
 cd ShuBham
 bash update.sh
 echo " "
