@@ -122,6 +122,7 @@ echo " "
 echo -e "$grn                 Press$ylo ENTER$grn to continue$rset"
 echo " "
 python2 insta.py
+exit()
 echo " "
 echo -e "$ylo         To terminate the process click$red 't' $ylo or to continue click on$grn ENTER$rset"
 read choice
