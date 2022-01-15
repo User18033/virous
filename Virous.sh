@@ -111,7 +111,6 @@ echo " "
 echo -e "$cyan             click$grn ENTER$cyan to go back into virous  menu$rset"
 echo " "
 read punch
-fi
 cd $HOME/virous
 bash virous.sh ;;
 3)echo " "
